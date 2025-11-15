@@ -15,39 +15,39 @@ default = ["snapshot-testing"]
 snapshot-testing = ["dep:snapshot-testing"]
 
 [dependencies]
-hashbag = { version = "0.1.13", default-features = false }
-thiserror = "2.0.3"
+hashbag = { version = "0.1", default-features = false }
+thiserror = "2.0"
 
 [dependencies.serde]
-version = "1.0.179"
+version = "1.0"
 features = ["derive"]
 
 [dependencies.serde_json]
-version = "1.0.104"
+version = "1.0"
 features = ["unbounded_depth"]
 
 [dependencies.snapshot-testing]
-version = "0.1.8"
+version = "0.1"
 optional = true
 
 [dependencies.rustdoc-types]
-version = "0.56.0"
+version = "0.56"
 
 [dev-dependencies]
-anyhow = "1.0.75"
-assert_cmd = "2.0.17"
-pretty_assertions = "1.4.1"
-snapshot-testing = "0.1.8"
-tempfile = "3.19.1"
+anyhow = "1.0"
+assert_cmd = "2.1"
+pretty_assertions = "1.4"
+snapshot-testing = "0.1"
+tempfile = "3.23"
 
 [dev-dependencies.itertools]
-version = "0.14.0"
+version = "0.14"
 default-features = false
 
 [dev-dependencies.rustdoc-json]
 path = "../rustdoc-json"
-version = "0.9.7"
+version = "0.9"
 
 [dev-dependencies.predicates]
-version = "3.1.3"
+version = "3.1"
 default-features = false
